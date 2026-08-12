@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Social Media Survey</title>
+  </head>
+
+  <body>
+    <h1 id=title>Survey Form</h1>
+    <p id="description"> Give us your opinions!!</p>
+    <form id = "survey-form">
+      <label id="name-label">Name:</label>
+      <input id="name" type="text" placeholder="Enter your name..." required>
+      <p>
+
+      </p>
+      <label id="email-label">Email:</label>
+      <input id="email" type="email" placeholder="Enter your email..." required>
+      <p>
+      </p>
+      <label id="number-label">Number (1-10):</label>
+      <input id="number" type="number" placeholder="Enter a number (1-10)" min="1" max="10">
+      <p></p>
+      <label>    How many hours a day do you spend on your phone?
+      <select id="dropdown">
+        <option>1</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>5</option>
+      </select>
+      <p>How do you rate it?</p>
+      <label>
+        <input type ="radio" id ="opinion"name="Opinion" value="5*">
+        5*
+      </label>
+      <label>
+        <input type ="radio" id ="opinion"name="Opinion" value="4*">
+        4*
+      </label>
+      <label>
+        <input type ="radio" id ="opinion"name="Opinion" value="3*">
+        3*
+      </label>
+      <label>
+        <input type ="radio" id ="opinion"name="Opinion" value="2*">
+        2*
+      </label>
+      <label>
+        <input type ="radio" id ="opinion"name="Opinion" value="1*">
+        1*
+      </label>
+<p></p>
+      <label>What social media do you use?</label>
+      <p></p>
+      <input type="checkbox" value="preferences">TikTok
+      <p></p>
+
+      <input type="checkbox" value="preferences">Instagram
+      <p></p>
+
+      <input type="checkbox" value="preferences">WhatsApp<p></p>
+
+      <input type="checkbox" value="preferences">Snapchat<p></p>
+
+      <input type="checkbox" value="preferences">X
+      <p></p>
+      <label>Comments:</label>
+    </form>
+    <textarea id="survey-form"> </textarea>
+    <input id="submit" type=submit>
+  </body>
+</html>
